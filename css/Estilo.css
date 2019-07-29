@@ -1,0 +1,65 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:"Lucida Sans";
+
+}
+#encabezado {
+	width: 100%;
+	min-height: 60px;
+	font-size: 20px;
+	color: rgb(255,255,255);
+	background-color: rgba(14, 102, 85, 1);
+	position: fixed;
+}
+
+.nombre{
+	padding: 20px;
+
+}
+#cuerpo{
+	/*padding: 100px;*/
+	border-top: 100px solid rgb(255,255,255);
+	min-height: 100px;
+}
+
+
+
+
+
+
+/*form{
+	background: rgb(255,255,255);
+	width: 360px;
+	border:1px solid #4e4d4d;
+	box-shadow: inset 0 0 10; 
+	margin: 100px auto;
+}*/
+input.producto{
+	height: 30px;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,0.1);
+}
+.numero{
+	height: 30px;
+	width: 25%;
+	border-radius: 3px;
+	border:1px solid rgba(0,0,0,0.1);
+}
+.linea{
+	width: 90%;
+	background-color: rgba(14, 102, 85, 1);
+}
+
+table.datos{
+	width: 90%;
+	background-color: #E3F2FD;
+	font-family: Arial;
+}
+table.datos td.espacio{
+	height: 10px;
+	-webkit-box-shadow:inset 0px -2px 0px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow:inset 0px -2px 0px 0px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -2px 0px 0px rgba(0,0,0,0.75);
+}

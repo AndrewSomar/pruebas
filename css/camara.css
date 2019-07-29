@@ -1,0 +1,25 @@
+.button-container{
+	margin: 1rem;
+	text-align: center;
+}
+.button{
+	border: 1px solid;
+	color: #fff;
+	padding: 10px;
+	font-size: large;
+	border-radius: 10px;
+	background-color: #fd4140;
+}
+#button-action{
+	font-size: large;
+	border-radius: 10px;
+	background-color: #fd4140;
+}
+
+#foto{
+	height: 400px;
+	border: 1px solid;
+	margin: 1%;
+	box-sizing: border-box;
+	width: 98%;
+}
